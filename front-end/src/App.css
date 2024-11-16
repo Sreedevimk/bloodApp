@@ -1,0 +1,56 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+  }
+  
+  header, main {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #ededed;
+    /* color: white; */
+    padding: 1rem;
+    text-align: center;
+  }
+  /* .formContainer{
+        width: 40%;
+        margin-left: 30%;
+        background-color: #FFB0B0;
+  } */
+  
+  .form-field {
+    margin-bottom: 16px;
+} 
+
+.select-field, .input-field, .button-field { 
+    width: 100%; 
+ } 
+ .text-center {
+  margin-bottom: 24px; 
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; Makes the container full height */
+  margin: 0; /* Removes default margin */
+}
+.form2 {
+  padding: 20px;
+  margin: 0;
+  max-width: 400px;
+   /* Adjust width as needed */
+}
+.form-img{
+  border-radius: 100%;
+}
+
+/* Center the form and remove extra space */
+  /* body{
+    background-image:url("https://img.freepik.com/free-vector/blood-donation-cartoon_24640-26227.jpg?size=626&ext=jpg") ;
+    background-size: cover;
+  } */
+   
